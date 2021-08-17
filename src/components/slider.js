@@ -1,16 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import slider from './components/slider';
+import React from 'react'
 
-function App() { 
-  return (
-    <>
-    
-{/* importing navbar */}
-<Navbar/>
-
-
+export default function slider() {
+    return (
+     <>
       {/* slide show */}
       <div className="slidesize">
       <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -20,22 +12,22 @@ function App() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="5000">
-      <img src="1.jpg" height="300px" width="auto" className="d-block w-100" alt="1st slide"/>
+    <div className="carousel-item active" data-bs-interval="15000">
+      <img src="1.jpg" height="500px" width="auto" className="d-block w-100" alt="1st slide"/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Wish is building</h5>
         <p>It’s gonna be legend-... wait for it…DAIRY!</p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="2000">
-      <img src="2.jpg" height="300px" width="auto" className="d-block w-100" alt="2nd slide"/>
+      <img src="2.jpg" height="500px" width="auto" className="d-block w-100" alt="2nd slide"/>
       <div className="carousel-caption d-none d-md-block">
       <h5>Wish is building 2nd slide</h5>
       <p>It’s gonna be legend-... wait for it…DAIRY!wait for it na</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="3.jpg" height="300px" width="auto" className="d-block w-100" alt="3rd slide"/>
+      <img src="3.jpg" height="500px" width="auto" className="d-block w-100" alt="3rd slide"/>
       <div className="carousel-caption d-none d-md-block">
       <h5>Wish is building 3rd slide</h5>
       <p>It’s gonna be legend-... wait for it…DAIRY!coming soon1</p>
@@ -52,11 +44,6 @@ function App() {
   </button>
 </div>
 </div>
-{/* not working */}
-{/* <slider/> */}
-
-    </>
-  );
+     </>
+    )
 }
-
-export default App;
