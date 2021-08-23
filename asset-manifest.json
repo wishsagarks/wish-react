@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wish-react/static/css/main.1161575a.chunk.css",
-    "main.js": "/wish-react/static/js/main.fc230475.chunk.js",
-    "main.js.map": "/wish-react/static/js/main.fc230475.chunk.js.map",
+    "main.css": "/wish-react/static/css/main.fb13d32c.chunk.css",
+    "main.js": "/wish-react/static/js/main.a6e9a519.chunk.js",
+    "main.js.map": "/wish-react/static/js/main.a6e9a519.chunk.js.map",
     "runtime-main.js": "/wish-react/static/js/runtime-main.cbcb0e17.js",
     "runtime-main.js.map": "/wish-react/static/js/runtime-main.cbcb0e17.js.map",
-    "static/js/2.1b4dd6e0.chunk.js": "/wish-react/static/js/2.1b4dd6e0.chunk.js",
-    "static/js/2.1b4dd6e0.chunk.js.map": "/wish-react/static/js/2.1b4dd6e0.chunk.js.map",
+    "static/js/2.2b6d7d98.chunk.js": "/wish-react/static/js/2.2b6d7d98.chunk.js",
+    "static/js/2.2b6d7d98.chunk.js.map": "/wish-react/static/js/2.2b6d7d98.chunk.js.map",
     "static/js/3.907ab24e.chunk.js": "/wish-react/static/js/3.907ab24e.chunk.js",
     "static/js/3.907ab24e.chunk.js.map": "/wish-react/static/js/3.907ab24e.chunk.js.map",
     "index.html": "/wish-react/index.html",
-    "static/css/main.1161575a.chunk.css.map": "/wish-react/static/css/main.1161575a.chunk.css.map",
-    "static/js/2.1b4dd6e0.chunk.js.LICENSE.txt": "/wish-react/static/js/2.1b4dd6e0.chunk.js.LICENSE.txt"
+    "static/css/main.fb13d32c.chunk.css.map": "/wish-react/static/css/main.fb13d32c.chunk.css.map",
+    "static/js/2.2b6d7d98.chunk.js.LICENSE.txt": "/wish-react/static/js/2.2b6d7d98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cbcb0e17.js",
-    "static/js/2.1b4dd6e0.chunk.js",
-    "static/css/main.1161575a.chunk.css",
-    "static/js/main.fc230475.chunk.js"
+    "static/js/2.2b6d7d98.chunk.js",
+    "static/css/main.fb13d32c.chunk.css",
+    "static/js/main.a6e9a519.chunk.js"
   ]
 }
