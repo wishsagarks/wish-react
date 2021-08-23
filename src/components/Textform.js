@@ -18,7 +18,7 @@ export default function Textform(props) {
   }
   const colorChange = () => {
 
-    document.getElementById("exampleFormControlTextarea1").style.color = "red";
+    document.getElementById("exampleFormControlTextarea1").style.color = "yellow";
 
   }
   const clear =() =>{
@@ -35,16 +35,16 @@ export default function Textform(props) {
        
           <div className="container">
             <div className="mb-3">
-              <label for="exampleFormControlInput1" className="form-label" id="wdark" >{props.name}</label>
+              <label for="exampleFormControlInput1" className="form-label" id="wdark" style={{color: props.mode==='dark'? 'white':'black'}}><strong>{props.name}</strong></label>
               <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="WISH" />
             </div>
             <div className="mb-10">
-              <label for="exampleFormControlTextarea1" className="form-label" id="wdark">{props.area}</label>
-              <textarea className="form-control" value={text} onChange={handleChange} id="exampleFormControlTextarea1" rows="4"></textarea>
+              <label for="exampleFormControlTextarea1" className="form-label" id="wdark" style={{color: props.mode==='dark'? 'white':'black'}}><strong>{props.area}</strong></label>
+              <textarea className="form-control" value={text} onChange={handleChange} style={{backgroundColor: props.mode==='dark'?'#2497d1':'black'}} id="exampleFormControlTextarea1" rows="4"></textarea>
             </div>
             <br>
             </br>
-            <button type="button" class="btn btn-success mx-2" onClick={upperCase}>Upper</button>
+            <button type="button" class="btn btn-success mx-2" onClick={upperCase} >Upper</button>
 
             <button type="button" class="btn btn-success mx-2" onClick={lowerCase}>Lower</button>
 
@@ -53,8 +53,8 @@ export default function Textform(props) {
      <br></br>
      <br></br>
 
-     <div className="container" id="wdark">
-        <h2>Number of words in sentence:</h2>
+     <div className="container" id="wdark" style={{color: props.mode==='dark'? 'white':'black'}} >
+        <h2 >Number of words in sentence:</h2>
         <p>{text.split(" ").length} words and {text.length} characters.</p>
 
         <h2>Preview: </h2>
