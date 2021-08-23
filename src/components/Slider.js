@@ -13,12 +13,6 @@ export default function slider() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-
-
-
-
-
-
     <div className="carousel-item active" data-bs-interval="5000">
       <img src="https://i.ibb.co/KVH6Mwr/1.jpg" height="300px" width="auto" className="d-block w-100" alt="1st slide"/>
       <div className="carousel-caption d-none d-md-block">
