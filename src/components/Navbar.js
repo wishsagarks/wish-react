@@ -37,15 +37,12 @@ export default function Navbar(props) {
 
 
             </ul>
-<<<<<<< Updated upstream
-=======
 
 
             <div class="form-check form-switch" >
               <input class="form-check-input" onClick={props.toggleMode} type="checkbox" id="flexSwitchCheckDefault" />
               <label class="form-check-label " htmlFor="flexSwitchCheckDefault">{props.mode==='dark'?"🌞":"🌛"}</label>
             </div>
->>>>>>> Stashed changes
             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>

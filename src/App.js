@@ -3,23 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar'
 import Slider from './components/Slider';
 import Textform from './components/Textform';
-// import Aboutme from './components/Aboutme';
-<<<<<<< Updated upstream
-function App() { 
-  return (
-    <>
-    
-{/* importing navbar */}
-<Navbar title="Home"/>
-{/* sllider */}
-<Slider />
+import React, { useState } from 'react'
 
-<br>
-</br>
-{/* text form */}
-<Textform name="Enter your Name:" area="Enter your text here:"/>
-    {/* <Aboutme/> */}
-=======
+// import Aboutme from './components/Aboutme';
 function App() {
   const [mode, setmode] = useState('dark');
   
@@ -52,7 +38,6 @@ function App() {
       {/* text form */}
       <Textform name="Enter your Name:" area="Enter your text here:" mode={mode} />
       {/* <Aboutme/> */}
->>>>>>> Stashed changes
 
     </>
   );
