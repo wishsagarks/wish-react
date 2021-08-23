@@ -44,7 +44,7 @@ export default function Navbar(props) {
               <label class="form-check-label " htmlFor="flexSwitchCheckDefault">{props.mode==='dark'?"🌞":"🌛"}</label>
             </div>
             <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <input className="form-control me-2 mx-3" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
