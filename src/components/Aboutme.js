@@ -8,7 +8,7 @@
 
 
   })
-const [bttn, setbttn] = useState("Enable Dark mode")
+const [bttn, setbttn] = useState("Enable Light mode")
 
   const darkMode = () =>{
     if(myStyle.color==='red')
