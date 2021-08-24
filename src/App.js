@@ -10,7 +10,7 @@ function App() {
   const [mode, setmode] = useState('dark');
   
 
-  
+
   const toggleMode = () => {
     if (mode === 'light') 
     { 
