@@ -8,7 +8,7 @@ export default function Navbar(props) {
             <>
            
             {/* <nav bar in react */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img src="https://i.postimg.cc/2533GdRC/wish.png" alt="WISH" />
@@ -41,7 +41,7 @@ export default function Navbar(props) {
 
             <div class="form-check form-switch" >
               <input class="form-check-input" onClick={props.toggleMode} type="checkbox" id="flexSwitchCheckDefault" />
-              <label class="form-check-label " htmlFor="flexSwitchCheckDefault">{props.mode==='dark'?"🌞":"🌛"}</label>
+              <label class="form-check-label " htmlFor="flexSwitchCheckDefault">{props.mode==='dark'?"🌛":"🌞"}</label>
             </div>
             <form className="d-flex">
               <input className="form-control me-2 mx-3" type="search" placeholder="Search" aria-label="Search" />
